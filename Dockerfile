@@ -31,7 +31,7 @@ RUN npm install --production
 # Copier le dossier build généré par Next.js
 COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/public ./public
-COPY --from=builder /app/next.config.mjs ./
+COPY --from=builder /app/next.config.js ./
 
 # Exposer le port sur lequel l'application tournera
 EXPOSE 3000
