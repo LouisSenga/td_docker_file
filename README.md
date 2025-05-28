@@ -1,6 +1,6 @@
-#  FaceDev — Application Next.js
+#  Application Next.js (TD docker et CI Test auto en utilisant Git Action ) M2 SDIA n: 4700
 
-Ce projet est une application web développée avec [Next.js](https://nextjs.org/) et déployable via Docker.
+Ce projet est une application web développée avec [Next.js](https://nextjs.org/).
 
 ---
 
