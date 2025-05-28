@@ -8,23 +8,32 @@ Ce projet est une application web développée avec [Next.js](https://nextjs.org
 
 ### 1. Cloner le projet
 
-git clone https://github.com/LouisSenga/td_docker_file
-cd td_docker_file
+```bash
+$ git clone https://github.com/LouisSenga/td_docker_file
+$ cd td_docker_file
+```
 
 ### 2. Installer les dépendances
 
 npm install
-
+```bash
+$ git clone https://github.com/LouisSenga/td_docker_file
+$ cd td_docker_file
+```
 
 ### 3. Construire l'image docker
 
-docker build -t td_docker_file .
 
+```bash
+$ docker build -t td_docker_file .
+```
 
 ### 4. Lancer le conteneur
 
-docker run -p 3000:3000 td_docker_file
 
+```bash
+$ docker run -p 3000:3000 td_docker_file
+```
 
  Ouvre [http://localhost:3000] dans ton navigateur pour voir le résultat.
 nextjs.org
